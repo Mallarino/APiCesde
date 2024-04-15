@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="OpenWeather.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>WeatherAPI</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="PokeApi.html">PokeApi</a></li>
+            <li><a href="OpenWeather.html">WeatherAPI</a></li>
+            <li><a href="JSONPlaceholder.html">ImageAPI</a></li>
+        </ul>
+    </nav>
+
+    <h1>Consulta del Tiempo</h1>
+
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 offset-sm-3">
+                <form id="formularioTiempo" class="align-items-center">
+                    <input type="text" id="inputCiudad" class="form-control" placeholder="Ingrese la ciudad">
+                    <button type="submit" class="btn btn-primary mt-2">Obtener Tiempo</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="tiempoContainer"></div>
+  
+    
+
+    <script src="OpenWeatherApp.js"></script>
+</body>
+</html>

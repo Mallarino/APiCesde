@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #555;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.card{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#formularioPokemon{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#inputPokemon {
+    padding: 8px;
+    font-size: 16px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+#pokemonInfo{
+    display: flex;
+    justify-content: center;
+}
